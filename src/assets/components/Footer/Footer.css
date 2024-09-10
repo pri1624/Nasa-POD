@@ -1,0 +1,67 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  background: transparent;
+  padding: 1rem;
+  z-index: 1; 
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-content h2 {
+  font-size: 1.4rem;
+}
+
+.footer-content h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.info {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.info i {
+  font-size: 1.3rem;
+}
+
+.info:hover {
+  opacity: 0.7;
+}
+
+
+.calendar {
+  position: fixed; 
+  top: 1rem; 
+  left: 1rem; 
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 10; 
+  background-color: white;
+  border-radius: 10px;
+  transition-duration: 200ms;
+}
+
+.calendar i {
+  font-size: 1.5rem;
+  transition-duration: 200ms;
+}

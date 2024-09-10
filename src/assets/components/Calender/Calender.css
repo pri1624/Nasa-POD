@@ -1,0 +1,95 @@
+.calendar {
+  position: fixed; 
+  top: 1rem;
+  left: 1rem;
+  background: #61dafb;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 10;
+  background-color: white;
+  border-radius: 10px;
+  transition-duration: 200ms;
+ 
+}
+
+.calendar i {
+  font-size: 1.5rem;
+  transition-duration: 200ms;
+}
+
+
+.calendar-container {
+  background-color: #030615;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.react-calendar {
+  background: inherit;
+  color: #ffffff;
+  border: none;
+}
+
+.react-calendar__navigation {
+  color: #ffffff;
+  
+}
+
+.react-calendar__navigation__label {
+  color: red;
+  font-weight:bolder;
+}
+
+.react-calendar__month-view__weekdays {
+  color: #ffffff;
+}
+
+.react-calendar__month-view__days__day {
+  color: #ffffff;
+  &:hover{
+    color: #030615;
+    font-weight: bolder;
+  }
+}
+
+.react-calendar__tile--active {
+  background: #61dafb;
+  color: #ffffff;
+}
+
+
+.react-calendar__navigation__arrow{
+  color:red;
+}
+.react-calendar__navigation__prev-button{
+  color:red;
+}
+
+.react-calendar__tile,
+.react-calendar__year-view__months__month{
+color:white;
+}
+
+.react-calendar__year-view__months__month:hover {
+  font-weight: bolder;
+  color: #030615; 
+  cursor: pointer;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+
+.react-calendar__navigation__label:hover {
+  background-color: #030615; 
+  color: red; 
+  cursor: pointer;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.react-calendar__navigation__arrow:hover {
+  background-color: #030615; 
+  color: red; 
+  cursor: pointer;
+  transition: background-color 200ms ease, color 200ms ease;
+}
